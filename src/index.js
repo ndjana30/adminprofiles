@@ -177,11 +177,11 @@ files.map((item,index)=>{
 }
 const router = createBrowserRouter([
   {
-    path: '/admin',
+    path: '/',
     element: <FilePicker />,
   },
   {
-    path: '/',
+    path: '/students',
     element: <App />,
   },
 ]);
